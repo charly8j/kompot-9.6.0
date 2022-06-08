@@ -1,0 +1,24 @@
+{
+  "name": "kompot_9.6.0",
+  "version": "1.0.0",
+  "description": "automation test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engineeryulia/kompot_9.6.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engineeryulia/kompot_9.6.0/issues"
+  },
+  "homepage": "https://github.com/engineeryulia/kompot_9.6.0#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
