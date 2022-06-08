@@ -5,17 +5,17 @@ export default class RegistationPage{
     fullNameField = () => cy.get('#fullName');
     phoneNumber = () => cy.get('#phone_number');
     companyField = () => cy.get('#companyName');
-    primaryIndustryField = () => cy.get('#primaryIndustry-label');
-    companySizeField = () => cy.get('#companySize-label');
+    primaryIndustryField = () => cy.get('#primaryIndustry');
+    companySizeField = () => cy.get('#companySize');
     companySizeList = () => cy.get('[data-popper-placement="bottom"]')
 
 companySizeSelected(quantity){
-    this.companySizeField().click
+    this.companySizeField().click()
     const sizeOfPeople = ['Only me', '2-10 people', '11-20 people', '20+ people'];
     for(let i = 0; i< sizeOfPeople.length; i++){
         this.companySizeList().contains(sizeOfPeople[i])
     }
-    this.companySizeList().contains(quantity).click()
+    this.companySizeList().contains(quantity).click()// loop
 }
 
 
