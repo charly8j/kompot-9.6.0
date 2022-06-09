@@ -1,6 +1,6 @@
-import RegistationPage from "../support/page_object/registationPage";
+import RegistrationPage from "../support/page_object/registrationPage";
 
-const registrationPage = new RegistationPage()
+const registrationPage = new RegistrationPage()
 
 
 describe('Registration', () =>{

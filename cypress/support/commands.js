@@ -1,6 +1,6 @@
-import RegistationPage from "./page_object/registationPage";
+import RegistrationPage from "./page_object/registrationPage";
 import LoginPage from "./page_object/loginPage";
-const registrationPage = new RegistationPage();
+const registrationPage = new RegistrationPage();
 const loginPage = new LoginPage();
 
 

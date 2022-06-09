@@ -1,4 +1,4 @@
-export default class RegistationPage{
+export default class RegistrationPage {
      emailField = () => cy.get('#email');
     passwordField = () => cy.get('#password');
     createBtn = () => cy.get('button[type="submit"]')
